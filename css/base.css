@@ -1,0 +1,718 @@
+/*buttons*/
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    background-color: #fff;
+    transition: all .2s;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.btn-large {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-dange:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #337ab7;
+    border: 0;
+}
+
+.btn-link:hover {
+    color: #23527c;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.btn-dashed {
+    border-style: dashed;
+}
+
+.btn-ghost {
+    color: #666;
+    background-color: transparent;
+    border-color: #d9d9d9;
+}
+
+.btn-ghost:hover {
+    color: #57c5f7;
+    background-color: transparent;
+    border-color: #57c5f7;
+}
+
+.btn-active {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn-active:hover {
+    color: #fff;
+    background-color: #204d74;
+    border-color: #122b40;
+}
+
+.btn-disabled {
+    color: #dddddd;
+    border-color: #eaeaea;
+    cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+    border-color: #eaeaea;
+    color: #dddddd;
+    background-color: transparent;
+}
+
+.popup-btn {
+    color: #0b72b3;
+    border: 1px dashed #49adea;
+    background-color: transparent;
+}
+
+.popup-btn:hover {
+    color: #0b72b3;
+    border: 1px solid #57b3ec;
+    background-color: transparent;
+}
+
+
+/*buttons-group*/
+
+.btn-group {
+    position: relative;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    overflow: hidden;
+    /*clearfix*/
+}
+
+.btn-group>.btn {
+    position: relative;
+    float: left;
+}
+
+.btn-group>.btn:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.btn-group>.btn:first-child {
+    border-radius: 3px;
+}
+
+.btn-group>.btn:last-child {
+    border-radius: 3px;
+}
+
+.btn-group>.btn:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group>.btn:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group-large .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+.btn-group-small .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-group-xsmall .btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-items .btn {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-items .btn:nth-child(4n) {
+    margin-right: 0;
+}
+
+
+/*checkbox*/
+
+.checkbox-wrapper {
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.checkbox {
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    vertical-align: middle;
+}
+
+.checkbox-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    border: 1px solid #7aa1bb;
+    background-color: #fff;
+    transition: border-color .1s cubic-bezier(.71, -.46, .29, 1.46), background-color .1s cubic-bezier(.71, -.46, .29, 1.46);
+}
+
+.checkbox-input {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.checkbox-inner:after {
+    transform: rotate(45deg) scale(0);
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    display: table;
+    width: 5px;
+    height: 8px;
+    border: 2px solid #0187D1;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    transition: all .1s cubic-bezier(.71, -.46, .88, .6);
+}
+
+.checkbox-checked .checkbox-inner {
+    border-color: #7AA1BB;
+    background-color: #fff;
+}
+
+.checkbox-checked .checkbox-inner:after {
+    transform: rotate(45deg) scale(1);
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    display: table;
+    width: 5px;
+    height: 8px;
+    border: 2px solid #0187D1;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    transition: all .2s cubic-bezier(.12, .4, .29, 1.46) .1s;
+}
+
+.checkbox-line .checkbox-inner {
+    border-color: #ccc;
+}
+
+.checkbox-line .checkbox-inner:after {
+    transform: rotate(90deg) scale(1);
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    display: table;
+    width: 5px;
+    height: 8px;
+    border: 2px solid #cccccc;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    content: ' ';
+    transition: all .2s cubic-bezier(.12, .4, .29, 1.46) .1s;
+}
+
+.checkbox-disabled .checkbox-input {
+    cursor: not-allowed;
+}
+
+.checkbox-disabled .checkbox-inner {
+    border-color: #d9d9d9;
+    background-color: #f3f3f3;
+}
+
+.checkbox-disabled .checkbox-inner:after {
+    -webkit-animation-name: none;
+    animation-name: none;
+    border-color: #f3f3f3;
+}
+
+.checkbox-disabled.checkbox-checked .checkbox-inner:after {
+    -webkit-animation-name: none;
+    animation-name: none;
+    border-color: #ccc;
+}
+
+
+/*radio*/
+
+.radio-wrapper {
+    padding: 10px 16px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.radio {
+    font-size: 12px;
+    white-space: nowrap;
+    outline: none;
+    display: inline-block;
+    position: relative;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.radio-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    border: 1px solid #0e8ed3;
+    background-color: #fff;
+    transition: all .2s cubic-bezier(.78, .14, .15, .86);
+}
+
+.radio-input {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.radio-inner:after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 2px;
+    top: 2px;
+    border-radius: 6px;
+    display: table;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    background-color: #0e8ed3;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.radio-checked .radio-inner:after {
+    transform: scale(1);
+    opacity: 1;
+    transition: all .2s cubic-bezier(.78, .14, .15, .86);
+}
+
+.radio-disabled .radio-input {
+    cursor: not-allowed;
+}
+
+.radio-disabled .radio-inner {
+    border-color: #d9d9d9;
+    background-color: #f3f3f3;
+}
+
+.radio-disabled .radio-inner:after {
+    background-color: #ccc;
+}
+
+.radio-disabled.radio-checked .radio-inner:after {
+    background-color: #ccc;
+}
+
+.radio-group {
+    padding: 10px 0;
+}
+
+//modal
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+    height: 322px;
+    overflow-y: auto;
+    background: #fff;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+
+.modal-content p {
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.popuper {
+    width: 470px;
+    height: 435px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .1);
+    background: #fff;
+    // margin: 10px 16px;
+}
+
+.modal h4 {
+    background: #f5f5f5;
+    color: #333333;
+    padding: 10px 10px;
+}
+
+.modal h4 i {
+    float: right;
+    cursor: pointer;
+}
+
+.popuper:before {
+    position: absolute;
+    left: 8%;
+    top: -7px;
+    width: 0;
+    height: 0;
+    border-width: 0 8px 7px;
+    border-style: solid;
+    border-color: transparent transparent #f5f5f5;
+    content: '';
+}
+
+.triangle {
+    overflow: visible;
+}
+
+.modal-footer {
+    background: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+/*table*/
+ .table {
+            border: 1px solid #ebebeb;
+            border-bottom: 0;
+            width: 100%;
+            
+        }
+        .table .btn {
+                font-size: 12px;
+                margin: 10px;
+            }
+        tr {
+            position: relative;
+            overflow: hidden;
+            width: auto;
+            height: auto;
+            line-height: 35px;
+            border-bottom: 1px solid #d7dde0;
+        }
+        .tag-name {
+            width: 118px;
+            height: 100%;
+            vertical-align: middle;
+            text-align: center;
+            background-color: #f7f7f7;
+            border-right: 1px solid #d7dde0;
+            line-height: 26px;
+            font-size: 12px;  
+        }
+        .tag-name span i {
+                display: inline-block;
+                width: 10px;
+            }
+
+
+/* scrollbar */
+/* 滚动条 scrollbar */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+
+/* Turn on single button up on top, and down on bottom */
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: block;
+}
+
+
+/* Turn off the down area up on top, and up area on bottom */
+
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement,
+::-webkit-scrollbar-button:horizontal:end:decrement,
+::-webkit-scrollbar-button:horizontal:end:increment,
+::-webkit-scrollbar-button:horizontal:start:decrement {
+    background: url(img/scroll.png) no-repeat;
+}
+
+
+/*竖向滚动条-下方按钮*/
+
+::-webkit-scrollbar-button:vertical:end:increment {
+    width: 6px;
+    height: 6px;
+    background-position: -2px -10px;
+}
+
+
+/*竖向滚动条-下方按钮-悬浮样式*/
+
+::-webkit-scrollbar-button:vertical:end:hover {
+    background-position: -1px 0px;
+}
+
+
+/*竖向滚动条-上方按钮*/
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+    background-position: -12px -12px;
+    height: 6px;
+    width: 6px;
+}
+
+
+/*竖向滚动条-上方按钮-悬浮样式*/
+
+::-webkit-scrollbar-button:vertical:start:hover {
+    background-position: -12px -2px;
+}
+
+
+/*竖向滚动条顶部背景 */
+
+::-webkit-scrollbar-track-piece:vertical:start {
+    background: #fff;
+}
+
+
+/* 竖向滚动条底部背景 */
+
+::-webkit-scrollbar-track-piece:vertical:end {
+    background: #fff;
+}
+
+
+/* 竖向滚动条*/
+
+::-webkit-scrollbar-thumb:vertical {
+    background: #ccd5d9;
+    border-radius: 4px;
+}
+
+
+/* 竖向滚动条-悬浮样式*/
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background: #a7d9f8;
+}
+
+
+/* Place The scroll down button at the bottom */
+
+::-webkit-scrollbar-button:horizontal:end:decrement {
+    background-position: -30px -11px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button:horizontal:end:hover {
+    background-position: -30px -1px;
+}
+
+
+/*横向滚动条-右边按钮 */
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+    background-position: -31px -11px;
+    height: 6px;
+    width: 6px;
+}
+
+
+/*横向滚动条-左边边按钮*/
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+    background-position: -23px -11px;
+    width: 6px;
+}
+
+
+/*横向滚动条-左边边按钮-悬浮样式*/
+
+::-webkit-scrollbar-button:horizontal:start:hover {
+    background-position: -23px -1px;
+}
+
+
+/* 横向滚动条背景-左边背景 */
+
+::-webkit-scrollbar-track-piece:horizontal:start {
+    background: #fff;
+}
+
+
+/* 横向滚动条背景-右边背景 */
+
+::-webkit-scrollbar-track-piece:horizontal:end {
+    background: #fff;
+}
+
+
+/* The thumb itself */
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #ccd5d9;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background: #a7d9f8;
+}

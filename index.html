@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>base-component</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <!-- buttons -->
+    <a href="javascript:void(0);" class="btn btn-large">大号按钮</a>
+    <a href="javascript:void(0);" class="btn">默认</a>
+    <a href="javascript:void(0);" class="btn btn-small">小号按钮</a>
+    <a href="javascript:void(0);" class="btn btn-xs">加小按钮</a>
+    <a href="javascript:void(0);" class="btn btn-primary">首选</a>
+    <a href="javascript:void(0);" class="btn btn-success">成功</a>
+    <a href="javascript:void(0);" class="btn btn-info">一般信息</a>
+    <a href="javascript:void(0);" class="btn btn-warning">警告</a>
+    <a href="javascript:void(0);" class="btn btn-danger">危险</a>
+    <a href="javascript:void(0);" class="btn btn-link">链接</a>
+    <a href="javascript:void(0);" class="btn btn-dashed">虚线按钮</a>
+    <a href="javascript:void(0);" class="btn btn-ghost">幽灵按钮</a>
+    <a href="javascript:void(0);" class="btn btn-active">激活按钮</a>
+    <a href="javascript:void(0);" class="btn"> <i class="fa fa-circle-o-notch fa-spin fa-8 fa-fw"></i> 加载按钮
+    </a>
+    <a href="javascript:void(0);" class="btn"> <i class="fa fa-search  fa-8 fa-fw"></i> 搜索按钮
+    </a>
+    <a href="javascript:void(0);" class="btn btn-disabled">禁用</a>
+    <a href="	javascript:;0" class="btn popup-btn">+下拉</a>
+    <!--buttons group-->
+    <div class="btn-group btn-group-large">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+    <div class="btn-group btn-group-small">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+    <div class="btn-group btn-group-xsmall">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+    <hr>
+    <!--checkbox-->
+    <label class="checkbox-wrapper">
+        <span class="checkbox checkbox-line">
+			<span class="checkbox-inner"></span>
+        <input type="checkbox" class="checkbox-input">
+        </span>
+        <span>line</span>
+    </label>
+    <label class="checkbox-wrapper">
+        <span class="checkbox checkbox-checked">
+			<span class="checkbox-inner"></span>
+        <input type="checkbox" class="checkbox-input">
+        </span>
+        <span>一级超级代理商</span>
+    </label>
+    <label class="checkbox-wrapper">
+        <span class="checkbox">
+			<span class="checkbox-inner"></span>
+        <input type="checkbox" class="checkbox-input">
+        </span>
+        <span>一级超级代理商</span>
+    </label>
+    <label class="checkbox-wrapper">
+        <span class="checkbox checkbox-checked checkbox-disabled">
+			<span class="checkbox-inner"></span>
+        <input type="checkbox" class="checkbox-input">
+        </span>
+        <span>一级超级代理商</span>
+    </label>
+    <label class="checkbox-wrapper">
+        <span class="checkbox checkbox-disabled">
+			<span class="checkbox-inner"></span>
+        <input type="checkbox" class="checkbox-input">
+        </span>
+        <span>一级超级代理商</span>
+    </label>
+    <!--radio-->
+    <label class="radio-wrapper">
+        <span class="radio radio-checked">
+			<span class="radio-inner"></span>
+        <input type="radio" class="radio-input">
+        </span>
+        <span>指定标签</span>
+    </label>
+    <label class="radio-wrapper">
+        <span class="radio">
+			<span class="radio-inner"></span>
+        <input type="radio" class="radio-input">
+        </span>
+        <span>指定标签</span>
+    </label>
+    <label class="radio-wrapper">
+        <span class="radio  radio-checked radio-disabled">
+			<span class="radio-inner"></span>
+        <input type="radio" class="radio-input">
+        </span>
+        <span>指定标签</span>
+    </label>
+    <label class="radio-wrapper">
+        <span class="radio radio-disabled">
+			<span class="radio-inner"></span>
+        <input type="radio" class="radio-input">
+        </span>
+        <span>指定标签</span>
+    </label>
+    <hr>
+    <!--modal-->
+    <div class="modal">
+        <div class="popuper triangle" style="top:250px; ">
+            <h4>选择标签
+                    <i>&#10005</i>
+                </h4>
+            <div class="modal-content">
+                <div class="radio-group">
+                    <label class="radio"><span class="radio radio-checked"><span class="radio-inner"></span>
+                        <input type="radio" value="1" class="radio-input">
+                        </span><span>指定标签</span></label>
+                    <label class="radio"><span class="radio"><span class="radio-inner"></span>
+                        <input type="radio" value="2" class="radio-input">
+                        </span><span>不限</span></label>
+                    <label class="radio"><span class="radio"><span class="radio-inner"></span>
+                        <input type="radio" value="3" class="radio-input">
+                        </span><span>无标签</span></label>
+                </div>
+                <div>
+                    <p>代理商类型
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </p>
+                    <div class="btn-items">
+                        <a href="javascript:;" class="btn btn-disabled">目标代理商1</a>
+                        <a href="javascript:;" class="btn btn-active">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                    </div>
+                </div>
+                <div>
+                    <p>代理商类型
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </p>
+                    <div class="btn-items">
+                        <a href="javascript:;" class="btn btn-disabled">目标代理商1</a>
+                        <a href="javascript:;" class="btn btn-active">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                    </div>
+                </div>
+                <div>
+                    <p>代理商类型
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </p>
+                    <div class="btn-items">
+                        <a href="javascript:;" class="btn btn-disabled">目标代理商1</a>
+                        <a href="javascript:;" class="btn btn-active">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                        <a href="javascript:;" class="btn">目标代理商1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:void(0);" class="btn btn-primary">确定</a>
+                <a href="javascript:void(0);" class="btn btn-cancel">取消</a>
+            </div>
+        </div>
+    </div>
+    <!--table-->
+    <table class="table">
+        <tr>
+            <td class="tag-name">
+                <span>标<i></i>签</span>
+            </td>
+            <td>
+                <a href="javascript:void(0)" class="btn popup-btn"> + 筛选</a><a href="javascript:void(0)" class="btn btn-primary">不限</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="tag-name">
+                <span>标<i></i>签</span>
+            </td>
+            <td>
+                <a href="javascript:void(0)" class="btn popup-btn"> + 筛选</a><a href="javascript:void(0)" class="btn btn-primary">目标代理商</a><a href="javascript:void(0)" class="btn btn-primary">青菜萝卜肉</a><a href="javascript:void(0)" class="btn btn-primary">超大份米饭</a>
+                <a href="javascript:void(0)" class=" btn btn-primary">动骨鸡腿饭</a><a href="javascript:void(0)" class=" btn btn-primary">黑椒炒意粉</a><a href="javascript:void(0)" class="btn btn-primary">不限 <i>&#10005</i></a>
+            </td>
+        </tr>
+    </table>
+
+</html>
