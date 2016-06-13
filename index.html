@@ -2,217 +2,1281 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="renderer" content="webkit" />
+    <meta name="Keywords" content="ec" />
+    <meta name="description" content="ec" />
+    <link href="ec-base.css" type="text/css" rel="stylesheet" />
     <title>base-component</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
 </head>
 
 <body>
-    <!-- buttons -->
-    <a href="javascript:void(0);" class="btn btn-large">大号按钮</a>
-    <a href="javascript:void(0);" class="btn">默认</a>
-    <a href="javascript:void(0);" class="btn btn-small">小号按钮</a>
-    <a href="javascript:void(0);" class="btn btn-xs">加小按钮</a>
-    <a href="javascript:void(0);" class="btn btn-primary">首选</a>
-    <a href="javascript:void(0);" class="btn btn-success">成功</a>
-    <a href="javascript:void(0);" class="btn btn-info">一般信息</a>
-    <a href="javascript:void(0);" class="btn btn-warning">警告</a>
-    <a href="javascript:void(0);" class="btn btn-danger">危险</a>
-    <a href="javascript:void(0);" class="btn btn-link">链接</a>
-    <a href="javascript:void(0);" class="btn btn-dashed">虚线按钮</a>
-    <a href="javascript:void(0);" class="btn btn-ghost">幽灵按钮</a>
-    <a href="javascript:void(0);" class="btn btn-active">激活按钮</a>
-    <a href="javascript:void(0);" class="btn"> <i class="fa fa-circle-o-notch fa-spin fa-8 fa-fw"></i> 加载按钮
-    </a>
-    <a href="javascript:void(0);" class="btn"> <i class="fa fa-search  fa-8 fa-fw"></i> 搜索按钮
-    </a>
-    <a href="javascript:void(0);" class="btn btn-disabled">禁用</a>
-    <a href="	javascript:;0" class="btn popup-btn">+下拉</a>
-    <!--buttons group-->
-    <div class="btn-group btn-group-large">
-        <button type="button" class="btn btn-default">Left</button>
-        <button type="button" class="btn btn-primary">Middle</button>
-        <button type="button" class="btn btn-default">Right</button>
-    </div>
-    <div class="btn-group">
-        <button type="button" class="btn btn-default">Left</button>
-        <button type="button" class="btn btn-default">Middle</button>
-        <button type="button" class="btn btn-default">Right</button>
-    </div>
-    <div class="btn-group btn-group-small">
-        <button type="button" class="btn btn-default">Left</button>
-        <button type="button" class="btn btn-default">Middle</button>
-        <button type="button" class="btn btn-default">Right</button>
-    </div>
-    <div class="btn-group btn-group-xsmall">
-        <button type="button" class="btn btn-default">Left</button>
-        <button type="button" class="btn btn-default">Middle</button>
-        <button type="button" class="btn btn-default">Right</button>
+    <div class="ec--btn-group">
+        <a href="javascript:; " class="ec--btn ec--btn-disabled">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-active">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-primary">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-large">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-small">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-xs">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-success">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-info">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-warning">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-danger">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-cancel">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-link">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-dashed">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-ghost">按钮</a>
+        <a href="javascript:; " class="ec--btn ec--btn-popup">按钮</a>
     </div>
     <hr>
-    <!--checkbox-->
-    <label class="checkbox-wrapper">
-        <span class="checkbox checkbox-line">
-			<span class="checkbox-inner"></span>
-        <input type="checkbox" class="checkbox-input">
-        </span>
-        <span>line</span>
-    </label>
-    <label class="checkbox-wrapper">
-        <span class="checkbox checkbox-checked">
-			<span class="checkbox-inner"></span>
-        <input type="checkbox" class="checkbox-input">
-        </span>
-        <span>一级超级代理商</span>
-    </label>
-    <label class="checkbox-wrapper">
-        <span class="checkbox">
-			<span class="checkbox-inner"></span>
-        <input type="checkbox" class="checkbox-input">
-        </span>
-        <span>一级超级代理商</span>
-    </label>
-    <label class="checkbox-wrapper">
-        <span class="checkbox checkbox-checked checkbox-disabled">
-			<span class="checkbox-inner"></span>
-        <input type="checkbox" class="checkbox-input">
-        </span>
-        <span>一级超级代理商</span>
-    </label>
-    <label class="checkbox-wrapper">
-        <span class="checkbox checkbox-disabled">
-			<span class="checkbox-inner"></span>
-        <input type="checkbox" class="checkbox-input">
-        </span>
-        <span>一级超级代理商</span>
-    </label>
-    <!--radio-->
-    <label class="radio-wrapper">
-        <span class="radio radio-checked">
-			<span class="radio-inner"></span>
-        <input type="radio" class="radio-input">
-        </span>
-        <span>指定标签</span>
-    </label>
-    <label class="radio-wrapper">
-        <span class="radio">
-			<span class="radio-inner"></span>
-        <input type="radio" class="radio-input">
-        </span>
-        <span>指定标签</span>
-    </label>
-    <label class="radio-wrapper">
-        <span class="radio  radio-checked radio-disabled">
-			<span class="radio-inner"></span>
-        <input type="radio" class="radio-input">
-        </span>
-        <span>指定标签</span>
-    </label>
-    <label class="radio-wrapper">
-        <span class="radio radio-disabled">
-			<span class="radio-inner"></span>
-        <input type="radio" class="radio-input">
-        </span>
-        <span>指定标签</span>
-    </label>
+    <div class="ec--checkbox-group">
+        <label class="ec--checkbox">
+            <input type="checkbox" /><span></span>Check Box 1</label>
+        <label class="ec--checkbox checked">
+            <input type="checkbox" /><span></span>Check Box 1</label>
+        <label class="ec--checkbox disabled">
+            <input type="checkbox" disabled /><span></span>Check Box 1</label>
+        <label class="ec--checkbox line">
+            <input type="checkbox" /><span></span>Check Box 1</label>
+        <label class="ec--checkbox">
+            <input type="checkbox" /><span></span>Check Box 1</label>
+        <label class="ec--checkbox checked">
+            <input type="checkbox" /><span></span>Check Box 1</label>
+        <label class="ec--checkbox disabled">
+            <input type="checkbox" disabled /><span></span>Check Box 1</label>
+        <label class="ec--checkbox line">
+            <input type="checkbox" /><span></span>Check Box 1</label>
+    </div>
     <hr>
-    <!--modal-->
-    <div class="modal">
-        <div class="popuper triangle" style="top:250px; ">
+    <div class="ec--radio-group">
+        <label class="ec--radio">
+            <input type="radio" /><span></span>radio 1</label>
+        <label class="ec--radio checked">
+            <input type="radio" /><span></span>radio 1</label>
+        <label class="ec--radio disabled">
+            <input type="radio" /><span></span>radio 1</label>
+        <label class="ec--radio">
+            <input type="radio" /><span></span>radio 1</label>
+        <label class="ec--radio checked">
+            <input type="radio" /><span></span>radio 1</label>
+        <label class="ec--radio disabled">
+            <input type="radio" /><span></span>radio 1</label>
+    </div>
+    <hr>
+    <div class="ec--input-group">
+        <input type="text" placeholder="这是一个文本框" class="ec--input" />
+
+        <input type="password" placeholder="这是一个密码框" class="ec--input" />
+
+        <input type="text" placeholder="search" class="ec--input"><i class="fa fa-search" aria-hidden="true"></i>
+
+    </div>
+    <hr>
+    <div class="ec--select-group">
+        <div class="ec--select">
+            <input type="text" readonly="readonly" value="VolvoVolvo" class="down ec--input"><i class="fa fa-angle-down" aria-hidden="true"></i>
+            <ul style="display:none;">
+                <li>VolvoVolvo</li>
+                <li>Saab</li>
+                <li>Saab</li>
+                <li>Audi</li>
+            </ul>
+        </div>
+        <div class="ec--select">
+            <form>
+                <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat" selected="selected">Saab</option>
+                <option value="audi">Audi</option>
+            </select>
+            </form>
+        </div>
+
+    </div>
+    <div class="ec--modal ec--modal-free" style="display:none">
+        <div class="popuper triangle" style="right:100px;top:100px">
             <h4>选择标签
-                    <i>&#10005</i>
-                </h4>
+                  <div class="close">
+                       <i>&#10005</i>
+                  </div>
+            </h4>
             <div class="modal-content">
-                <div class="radio-group">
-                    <label class="radio"><span class="radio radio-checked"><span class="radio-inner"></span>
-                        <input type="radio" value="1" class="radio-input">
-                        </span><span>指定标签</span></label>
-                    <label class="radio"><span class="radio"><span class="radio-inner"></span>
-                        <input type="radio" value="2" class="radio-input">
-                        </span><span>不限</span></label>
-                    <label class="radio"><span class="radio"><span class="radio-inner"></span>
-                        <input type="radio" value="3" class="radio-input">
-                        </span><span>无标签</span></label>
-                </div>
-                <div>
-                    <p>代理商类型
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </p>
-                    <div class="btn-items">
-                        <a href="javascript:;" class="btn btn-disabled">目标代理商1</a>
-                        <a href="javascript:;" class="btn btn-active">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                    </div>
-                </div>
-                <div>
-                    <p>代理商类型
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </p>
-                    <div class="btn-items">
-                        <a href="javascript:;" class="btn btn-disabled">目标代理商1</a>
-                        <a href="javascript:;" class="btn btn-active">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                    </div>
-                </div>
-                <div>
-                    <p>代理商类型
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </p>
-                    <div class="btn-items">
-                        <a href="javascript:;" class="btn btn-disabled">目标代理商1</a>
-                        <a href="javascript:;" class="btn btn-active">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                        <a href="javascript:;" class="btn">目标代理商1</a>
-                    </div>
-                </div>
             </div>
             <div class="modal-footer">
-                <a href="javascript:void(0);" class="btn btn-primary">确定</a>
-                <a href="javascript:void(0);" class="btn btn-cancel">取消</a>
+                <div class="ec--btn-group">
+                    <a href="javascript:; " class="ec--btn ec--btn-disabled">按钮</a>
+                    <a href="javascript:; " class="ec--btn ec--btn-active">按钮</a>
+                    <a href="javascript:; " class="ec--btn ec--btn-primary">按钮</a>
+                </div>
             </div>
         </div>
     </div>
-    <!--table-->
-    <table class="table">
-        <tr>
-            <td class="tag-name">
-                <span>标<i></i>签</span>
-            </td>
-            <td>
-                <a href="javascript:void(0)" class="btn popup-btn"> + 筛选</a><a href="javascript:void(0)" class="btn btn-primary">不限</a>
-            </td>
-        </tr>
-        <tr>
-            <td class="tag-name">
-                <span>标<i></i>签</span>
-            </td>
-            <td>
-                <a href="javascript:void(0)" class="btn popup-btn"> + 筛选</a><a href="javascript:void(0)" class="btn btn-primary">目标代理商</a><a href="javascript:void(0)" class="btn btn-primary">青菜萝卜肉</a><a href="javascript:void(0)" class="btn btn-primary">超大份米饭</a>
-                <a href="javascript:void(0)" class=" btn btn-primary">动骨鸡腿饭</a><a href="javascript:void(0)" class=" btn btn-primary">黑椒炒意粉</a><a href="javascript:void(0)" class="btn btn-primary">不限 <i>&#10005</i></a>
-            </td>
-        </tr>
-    </table>
+    <div class="ec--switch-group">
+        <label class="ios--switch">
+            <input type="checkbox">
+        </label>
+        <label class="ios--switch">
+            <input type="checkbox" checked>
+        </label>
+        <label class="ec--switch">
+            <input type="checkbox">
+            <i></i>
+        </label>
+        <label class="ec--switch">
+            <input type="checkbox">
+        </label>
+    </div>
+    <div class="ec--calendar">
+        <div class="ec--calendar-head">
+            <i class="pre-btn"></i>
+            <i class="next-btn"></i>
+            <span class="ec--calendar-ym-select">
+                <a href="javascript:;" class="y-select">2016年</a>
+                <a href="javascript:;" class="m-select">06月</a>
+            </span>
+        </div>
+        <div class="ec--calendar-content">
+            <table>
+                <tr>
+                    <th>日</th>
+                    <th>一</th>
+                    <th>二</th>
+                    <th>三</th>
+                    <th>四</th>
+                    <th>五</th>
+                    <th>六</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <!--<td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>-->
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="ec--timeline" style="margin-top:20px">
+        <ul class="ec--timeline-a">
+            <li>
+                <div class="ec--timeline-head"></div>
+                <div class="ec--timeline-tail"></div>
+                <div class="ec--timeline-content">
+                    <p>初步排除网络异常1</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="ec--timeline-head"></div>
+                <div class="ec--timeline-tail"></div>
+                <div class="ec--timeline-content">
+                    <p>初步排除网络异常1</p>
+                    <p>初步排除网络异常2</p>
+                    <p>初步排除网络异常3</p>
+                </div>
+            </li>
+            <li>
+                <div class="ec--timeline-head"></div>
+                <div class="ec--timeline-tail"></div>
+                <div class="ec--timeline-content">
+                    <p>初步排除网络异常4</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="ec--timeline-b">
+            <li>
+                <div class="ec--timeline-head active">1</div>
+                <div class="ec--timeline-tail">
+                    <p>初步排除1</p>
+                </div>
+            </li>
+            <li>
+                <div class="ec--timeline-head">2</div>
+                <div class="ec--timeline-tail">
+                    <p>初步排除2</p>
+                </div>
+            </li>
+            <li>
+                <div class="ec--timeline-head">3</div>
+                <div class="ec--timeline-tail">
+                    <!--<p>初步排除</p>-->
+                </div>
+            </li>
+            <li>
+                <div class="ec--timeline-head"></div>
+                <!--<div class="ec--timeline-tail">
+                    <p>初步排除</p>
+                </div>-->
+            </li>
+        </ul>
+        <ul class="ec--timeline-c">
+            <li>
+                <div class="ec--timeline-top">
+                    <div class="ec--timeline-head active"></div>
+                    <div class="ec--timeline-tail"></div>
+                </div>
+                <span>新入库</span>
+            </li>
+            <li>
+                <div class="ec--timeline-top">
+                    <div class="ec--timeline-head"></div>
+                    <div class="ec--timeline-tail"></div>
+                </div>
+                <span>初步沟通</span>
+            </li>
+            <li>
+                <div class="ec--timeline-top">
+                    <div class="ec--timeline-head"></div>
+                    <div class="ec--timeline-tail"></div>
+                </div>
+                <span>立项分析</span>
+            </li>
+            <li>
+                <div class="ec--timeline-top">
+                    <div class="ec--timeline-head"></div>
+                    <div class="ec--timeline-tail"></div>
+                </div>
+                <span>方案制定</span>
+            </li>
+            <li>
+                <div class="ec--timeline-top">
+                    <div class="ec--timeline-head"></div>
+                    <!--<div class="ec--timeline-tail"></div>-->
+                </div>
+                <span>红彤彤签订</span>
+            </li>
+        </ul>
+    </div>
+    <div class="ec--tip">
+        <div class="ec--tip-required">
+            <i></i>
+            <span>姓名不能为空！</span>
+        </div>
+        <div class="ec--tip-success">
+            <i></i>
+            <span>保存成功！</span>
+        </div>
+    </div>
+    <div class="ec--layer-group">
+        <div class="ec--layer ec--layer-confirm" style="display:none;">
+            <div class="popuper">
+                <div class="ec--layer-head">
+                    <h4>信息</h4>
+                    <div class="close">
+                        <i>&#10005</i>
+                    </div>
+                </div>
+                <div class="ec--layer-content">
+                    <div class="ec--layer-img">
+                    </div>
+                    <p>删除后将无法恢复，是否删除？
+                    </p>
+                </div>
+                <div class="ec--layer-btn">
+                    <a href="javascript:; " class="ec--btn ec--btn-primary">删除</a>
+                    <a href="javascript:; " class="ec--btn ec--btn-cancel">不删除</a>
+                </div>
+            </div>
+        </div>
+        <div class="ec--layer ec--layer-confirm" style="display:none;">
+            <div class="popuper">
+                <div class="ec--layer-head">
+                    <h4>信息</h4>
+                    <div class="close">
+                        <i>&#10005</i>
+                    </div>
+                </div>
+                <div class="ec--layer-content">
+                    <div class="ec--layer-img">
+                    </div>
+                    <span>当前内容尚未保存，是否保存后再返回首页？
+                    </span>
+                </div>
+                <div class="ec--layer-btn">
+                    <a href="javascript:; " class="ec--btn ec--btn-primary">保存</a>
+                    <a href="javascript:; " class="ec--btn ec--btn-cancel">不保存</a>
+                </div>
+            </div>
+        </div>
+        <div class="ec--layer ec--layer-success" style="display:none;">
+            <div class="popuper">
+                <div class="ec--layer-content">
+                    <div class="ec--layer-img">
+                    </div>
+                    <p>
+                        <span>操作成功！</span>如果网络上未同步更新，请稍等片刻。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ec--layer ec--layer-free  ec--layer-error" style="display:none;">
+            <div class="popuper">
+                <div class="ec--layer-content">
+                    <div class="ec--layer-img">
+                    </div>
+                    <p>
+                        计划执行时间不能小于当前时间！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--基础表格-->
+    <div class="ec--module-result">
+        <table class="ec--table">
+            <tr>
+                <th width="5%">
+                    <label class="ec--checkbox">
+            <input type="checkbox" /><span></span></label>
+                </th>
+                <th width="45%" style="text-align :left;">客户</th>
+                <th width="15%">跟进人</th>
+                <th width="10%" class="hover">创建时间</th>
+                <th width="32%" class="hover">最近动态</th>
+            </tr>
+            <tr>
+                <td> <label class="ec--checkbox">
+                    <input type="checkbox" /><span></span></label>
+                </td>
+                <td class="ec--table-customer">
+                    <img src="img/default_customer.png" alt="" border="0" alt="ec">
+                    <div class="ec--table-content">
+                        <a href="javascript:;" class="ec--table-name">吴永红</a>
+                        <a href="javascript:;" class="ec--table-company-name">深圳多多玩游戏科技公司</a>
+                        <div class="ec--table-tag">
+                            <span>微签到</span>
+                            <span>技术对接</span>
+                        </div>
+                    </div>
+                </td>
+                <td>龙5</td>
+                <td>2016-05-20 09:51:49</td>
+                <td>
+                    2016-05-20 09:51:49 <i></i> 添加电话销售计划
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="ec--checkbox">
+                    <input type="checkbox" /><span></span></label>
+                </td>
+                <td class="ec--table-customer">
+                    <img src="img/default_customer.png" alt="" border="0" alt="ec">
+                    <div class="ec--table-content">
+                        <a href="javascript:;" class="ec--table-name">吴永红</a>
+                        <a href="javascript:;" class="ec--table-company-name">深圳多多玩游戏科技公司</a>
+                        <div class="ec--table-tag">
+                            <span>微签到</span>
+                            <span>技术对接</span>
+                        </div>
+                    </div>
+                </td>
+                <td>龙5</td>
+                <td>2016-05-20 09:51:49</td>
+                <td>
+                    2016-05-20 09:51:49 <i></i> 添加电话销售计划
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="ec--checkbox">
+                    <input type="checkbox" /><span></span></label>
+                </td>
+                <td class="ec--table-customer">
+                    <img src="img/default_customer.png" alt="" border="0" alt="ec">
+                    <div class="ec--table-content">
+                        <a href="javascript:;" class="ec--table-name">吴永红</a>
+                        <a href="javascript:;" class="ec--table-company-name">深圳多多玩游戏科技公司</a>
+                        <div class="ec--table-tag">
+                            <span>微签到</span>
+                            <span>技术对接</span>
+                        </div>
+                    </div>
+                </td>
+                <td>龙5</td>
+                <td>2016-05-20 09:51:49</td>
+                <td>
+                    2016-05-20 09:51:49 <i></i> 添加电话销售计划
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="ec--checkbox">
+                    <input type="checkbox" /><span></span></label>
+                </td>
+                <td class="ec--table-company">
+                    <img src="img/default_company.png" alt="" border="0" alt="ec">
+                    <div class="ec--table-content">
+                        <a href="javascript:;" class="ec--table-company-name">深圳多多玩游戏科技公司</a>
+                        <span>[其他]</span>
+                        <p>共1位联系人</p>
+                    </div>
+                </td>
+                <td>龙5</td>
+                <td>2016-05-20 09:51:49</td>
+                <td>
+                    2016-05-20 09:51:49 <i></i> 添加电话销售计划
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="ec--checkbox">
+                    <input type="checkbox" /><span></span></label>
+                </td>
+                <td class="ec--table-company">
+                    <img src="img/default_company.png" alt="" border="0" alt="ec">
+                    <div class="ec--table-content">
+                        <a href="javascript:;" class="ec--table-company-name">深圳多多玩游戏科技公司</a>
+                        <span>[其他]</span>
+                        <p>共1位联系人</p>
+                    </div>
+                </td>
+                <td>龙5</td>
+                <td>2016-05-20 09:51:49</td>
+                <td>
+                    2016-05-20 09:51:49 <i></i> 添加电话销售计划
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="ec--checkbox">
+                    <input type="checkbox" /><span></span></label>
+                </td>
+                <td class="ec--table-company">
+                    <img src="img/default_company.png" alt="" border="0" alt="ec">
+                    <div class="ec--table-content">
+                        <a href="javascript:;" class="ec--table-company-name">深圳多多玩游戏科技公司</a>
+                        <span>[其他]</span>
+                        <p>共1位联系人</p>
+                    </div>
+                </td>
+                <td>龙5</td>
+                <td>2016-05-20 09:51:49</td>
+                <td>
+                    2016-05-20 09:51:49 <i></i> 添加电话销售计划
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--客户选择菜单-->
+    <div class="ec--module-select-menu" style="display:none">
+        <a href="" class="ec-share"></a>
+        <div class="ec--select-menu-content">
+            <div class="ec--select-menu-head">
+                <span>
+                    已选择2个客户
+                </span>
+                <a href="javascript:;" class="ec--btn ec--btn-primary">取消</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="javascript:;">设置标签</a>
+                </li>
+                <li>
+                    <a href="javascript:;">导出客户</a>
+                </li>
+                <li>
+                    <a href="javascript:;">删除客户</a>
+                </li>
+                <li>
+                    <a href="javascript:;">放弃客户</a>
+                </li>
+                <li>
+                    <a href="javascript:;">合并客户</a>
+                </li>
+                <li>
+                    <a href="javascript:;">共享客户</a>
+                </li>
+                <li>
+                    <a href="javascript:;">转让客户</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--标签模块-->
+    <div class="ec--module-tag">
+        <table class="ec--table">
+            <tr>
+                <td class="ec--tag-name">
+                    <span>客户阶段</span>
+                </td>
+                <td class="ec--tag-right">
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">不限</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">目标代理商</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">青菜萝卜肉</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">超大份米饭</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">动骨鸡腿饭</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">黑椒炒意粉</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ec--tag-name">
+                    <span>标<i></i>签</span>
+                </td>
+                <td class="ec--tag-right">
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-popup"> + 筛选</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">不限</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ec--tag-name">
+                    <span>标<i></i>签</span>
+                </td>
+                <td class="ec--tag-right">
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-popup"> + 筛选</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">目标代理商<i>&#10005</i></a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">青菜萝卜肉<i>&#10005</i></a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">超大份米饭<i>&#10005</i></a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">动骨鸡腿饭<i>&#10005</i></a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">黑椒炒意粉<i>&#10005</i></a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">不限</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ec--tag-name">
+                    <span>更新时间</span>
+                </td>
+                <td class="ec--tag-right">
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">全部</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">今天</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">昨天</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">最近7天</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">最近30天</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">自定义</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ec--tag-name">
+                    <span>最后联系方式</span>
+                </td>
+                <td class="ec--tag-right">
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">全部</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">上门拜访</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">电话联系</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">短信联系</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">邮件联系</a>
+                    <a href="javascript:void(0)" class="ec--btn ec--btn-primary">QQ联系</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="ec--tag-name">
+                    <span>其他选项</span>
+                </td>
+                <td class="ec--tag-right">
+                    <div class="ec--select">
+                        <input type="text" readonly="readonly" value="是否有销售计划" class="down ec--input">
+                        <!--<i class="fa fa-angle-down" aria-hidden="true"></i>-->
+                        <ul>
+                            <li>不限</li>
+                            <li>无</li>
+                            <li>有</li>
+                        </ul>
+                    </div>
+                    <div class="ec--select">
+                        <input type="text" readonly="readonly" value="通讯工具筛选" class="down ec--input">
+                        <!--<i class="fa fa-angle-down" aria-hidden="true"></i>-->
+                        <ul>
+                            <li>不限</li>
+                            <li>有手机号</li>
+                            <li>有电话</li>
+                            <li>有邮箱</li>
+                        </ul>
+                    </div>
+                    <div class="ec--select">
+                        <input type="text" readonly="readonly" value="创建时间" class="down ec--input">
+                        <!--<i class="fa fa-angle-down" aria-hidden="true"></i>-->
+                        <ul>
+                            <li>不限</li>
+                            <li>今天</li>
+                            <li>昨天</li>
+                            <li>最近7天</li>
+                            <li>最近30天</li>
+                            <li>自定义</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <!--分享客户-->
+    <div class="ec--module-share" style="display:none;">
+        <div class="ec--layer">
+            <div class="popuper">
+                <div class="ec--layer-head">
+                    <h4><i></i>共享客户</h4>
+                    <div class="close">
+                        <i>✕</i>
+                    </div>
+                </div>
+                <div class="ec--layer-content">
+                    <div class="ec--share-head">
+                        <p>
+                            <span>
+                                共选择2个要共享的客户：
+                            </span> 共享后，您的同事将可以查看到客户跟进动态信息、添加备注、修改资料及联系客户等。
+                        </p>
+                        <div class="ec--share-list">
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">sandy<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">110<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">120<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">119<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">黑椒炒意粉<i>&#10005</i></a>
+                        </div>
+                    </div>
+                    <div class="ec--share-content">
+                        <!--copy-->
+                        <div class="ec--share-left">
+                            <h6>请选择员工</h6>
+                            <div class="ec--share-left-content">
+                                <input type="text" class="ec--input" placeholder="请输入部门/员工名搜索" />
+                                <ul class="ec--share-selector">
+                                    <li class="expand">
+                                        <i></i>
+                                        <a href="#">研发测试部</a>
+                                        <ul>
+                                            <li class="child"><a href="#">陈玲玲</a></li>
+                                            <li class="child"><a href="#">万达名</a></li>
+                                            <li class="child"><a href="#">杨青林</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="expand">
+                                        <i></i>
+                                        <a href="#">广州分公司</a>
+                                        <ul>
+                                            <li><a href="#">产品部</a></li>
+                                            <li><a href="#">研发部</a></li>
+                                            <li><a href="#">销售部</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">本部战略顾问部</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">营销部</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ec--share-add">
+                        </div>
+                        <div class="ec--share-right">
+                            <h6>已选择员工</h6>
+                            <div class="ec--share-right-content">
+                                <ul class="ec--share-selector">
+                                    <li class="child">陈玲玲
+                                        <i>&#10005</i>
+                                    </li>
+                                    <li class="child">万达名
+                                        <i>&#10005</i>
+                                    </li>
+                                    <li class="child">杨青林
+                                        <i>&#10005</i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--copy-->
+                        </div>
+                    </div>
+                    <div class="ec--layer-btn">
+                        <a href="javascript:;" class="ec--btn ec--btn-primary">确定</a>
+                        <a href="javascript:;" class="ec--btn ec--btn-cancel">取消</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--转让客户-->
+    <div class="ec--module-transfer" style="display:none;">
+        <div class="ec--layer">
+            <div class="popuper">
+                <div class="ec--layer-head">
+                    <h4><i></i>转让客户</h4>
+                    <div class="close">
+                        <i>✕</i>
+                    </div>
+                </div>
+                <div class="ec--transfer-content">
+                    <p>
+                        选择目标同事：
+                    </p>
+                    <p>
+                        <a href="javascript:;" class="ec--btn ec--btn-popup">点击选择跟进人</a> 分配给同事的客户，均会归到“其他”分组中
+                    </p>
+                    <p class="num">共选择2个客户</p>
+                    <div class="ec--transfer-box">
+                        <div class="ec--transfer-list">
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">sandy<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">110<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">120<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">119<i>&#10005</i></a>
+                            <a href="javascript:void(0)" class="ec--btn ec--btn-primary">黑椒炒意粉<i>&#10005</i></a>
+                        </div>
+                    </div>
+                    <p>
+                        <i class="fa fa-exclamation-circle fa-lg" aria-hidden="true "></i>
+                        <span>
+                                如客户和对应公司的跟进人为同一个，将同时转让公司；
+                                </span>
+                    </p>
+                </div>
+                <div class="ec--layer-btn">
+                    <a href="javascript:;" class="ec--btn ec--btn-primary">确定</a>
+                    <a href="javascript:;" class="ec--btn ec--btn-cancel">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--合并客户-->
+    <div class="ec--module-merge" style="display:none;">
+        <div class="ec--layer">
+            <div class="popuper">
+                <div class="ec--layer-head">
+                    <h4><i></i>合并客户</h4>
+                    <div class="close">
+                        <i>✕</i>
+                    </div>
+                </div>
+                <div class="ec--layer-content">
+                    <div class="ec--merge-left">
+                        <div class="merge-head">
+                            <span class="merge-title">
+                                合并效果预览
+                            </span>
+                            <div class="f-r">
+                                <p>
+                                    <span>*</span> 新的跟进人
+                                </p>
+                                <div class="ec--select">
+                                    <form>
+                                        <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat" selected="selected">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ec--timeline">
+                            <img src="img/default_customer.png" alt="ec" width="60">
+                            <ul class="ec--timeline-c">
+                                <li>
+                                    <div class="ec--timeline-top">
+                                        <div class="ec--timeline-head active"></div>
+                                        <div class="ec--timeline-tail"></div>
+                                    </div>
+                                    <span>新入库</span>
+                                </li>
+                                <li>
+                                    <div class="ec--timeline-top">
+                                        <div class="ec--timeline-head"></div>
+                                        <div class="ec--timeline-tail"></div>
+                                    </div>
+                                    <span>初步沟通</span>
+                                </li>
+                                <li>
+                                    <div class="ec--timeline-top">
+                                        <div class="ec--timeline-head"></div>
+                                        <div class="ec--timeline-tail"></div>
+                                    </div>
+                                    <span>立项分析</span>
+                                </li>
+                                <li>
+                                    <div class="ec--timeline-top">
+                                        <div class="ec--timeline-head"></div>
+                                        <div class="ec--timeline-tail"></div>
+                                    </div>
+                                    <span>方案制定</span>
+                                </li>
+                                <li>
+                                    <div class="ec--timeline-top">
+                                        <div class="ec--timeline-head"></div>
+                                        <!--<div class="ec--timeline-tail"></div>-->
+                                    </div>
+                                    <span>红彤彤签订</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="merge-tag-items">
+                            <div class="merge-tag">
+                                <span class="merge-name">客户标签</span>
+                                <a href="javascript:void(0)" class="ec--btn ec--btn-popup"> + 筛选</a>
+                                <a href="javascript:void(0)" class="ec--btn ec--btn-primary">sandy<i>&#10005</i></a>
+                                <a href="javascript:void(0)" class="ec--btn ec--btn-primary">110<i>&#10005</i></a>
+                                <a href="javascript:void(0)" class="ec--btn ec--btn-primary">120<i>&#10005</i></a>
+                                <a href="javascript:void(0)" class="ec--btn ec--btn-primary">119<i>&#10005</i></a>
+                                <a href="javascript:void(0)" class="ec--btn ec--btn-primary">黑椒炒意粉<i>&#10005</i></a>
+                            </div>
+                            <div class="merge-info">
+                                <span class="merge-name">基本信息</span>
+                                <ul class="merge-items">
+                                    <li>
+                                        <span>姓<i></i>名：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat" selected="selected">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>称<i></i>呼：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>性<i></i>别：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">女</option>
+                                            <option value="saab">男</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>地<i></i>区：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>职<i></i>务：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>QQ号码：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>固定电话：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>手机号码：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>传<i></i>真：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>邮箱地址：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span>行<i></i>业：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>公<i></i>司：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>网<i></i>址：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>地<i></i>址：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>备注信息：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="merge-info">
+                                <span class="merge-name">自定义信息</span>
+                                <ul class="merge-items">
+
+                                    <li class="merge-block">
+                                        <span>添加时间：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>添加货币：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>性<i></i>别：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>添加爱好：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>客户介绍：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>A：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>B：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>C：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+
+                                    <li class="merge-block">
+                                        <span>D：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+
+                                    <li class="merge-block">
+                                        <span>E：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="merge-block">
+                                        <span>F：</span>
+                                        <div class="ec--select">
+                                            <form>
+                                                <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="audi">Audi</option>
+                                         </select>
+                                            </form>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ec--merge-right">
+                        <ul>
+                            <li>
+                                <h4><span>11018...</span></h4>
+                                <div class="ec--merge-box">
+                                    <img src="img/default_customer.png" alt="" width="60">
+                                    <p><span>跟进人：</span>黄权鑫</p>
+                                </div>
+                                <div class="triangle">
+                                    <i></i>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><span>11018...</span></h4>
+                                <div class="ec--merge-box">
+                                    <img src="img/default_customer.png" alt="" width="60">
+                                    <p><span>跟进人：</span>黄权鑫</p>
+                                </div>
+                                <div class="triangle">
+                                    <i></i>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><span>11018...</span></h4>
+                                <div class="ec--merge-box">
+                                    <img src="img/default_customer.png" alt="" width="60">
+                                    <p><span>跟进人：</span>黄权鑫</p>
+                                </div>
+                                <div class="triangle">
+                                    <i></i>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><span>11018...</span></h4>
+                                <div class="ec--merge-box">
+                                    <img src="img/default_customer.png" alt="" width="60">
+                                    <p><span>跟进人：</span>黄权鑫</p>
+                                </div>
+                                <div class="triangle">
+                                    <i></i>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><span>11018...</span></h4>
+                                <div class="ec--merge-box">
+                                    <img src="img/default_customer.png" alt="" width="60">
+                                    <p><span>跟进人：</span>黄权鑫</p>
+                                </div>
+                                <div class="triangle">
+                                    <i></i>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><span>11018...</span></h4>
+                                <div class="ec--merge-box">
+                                    <img src="img/default_customer.png" alt="" width="60">
+                                    <p><span>跟进人：</span>黄权鑫</p>
+                                </div>
+                                <div class="triangle">
+                                    <i></i>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="ec--merge-footer ec--layer-btn">
+                        <a href="javascript:;" class="ec--btn ec--btn-primary">确定</a>
+                        <a href="javascript:;" class="ec--btn ec--btn-cancel">取消</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--zb-->
+    <div class="ec--divAct" style="margin-top:150px">
+        <div class="ec--left-view">
+            <p>当前视图：</p>
+            <div class="ec--ana-select">
+                <div class="ec--ana-val">按个人客户查看</div>
+                <ul class="ec--ana-list">
+                    <li><a href="javascript:;">按公司方式查看</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="ec--right-search">
+            <div class="ec--search_screen">
+                <p>综合</p><i class="caret"></i>
+                <ul>
+                    <li>综合</li>
+                    <li>姓名</li>
+                    <li>公司</li>
+                    <li>手机</li>
+                    <li>电话</li>
+                    <li>QQ</li>
+                    <li>邮箱</li>
+                    <li>备注</li>
+                </ul>
+            </div>
+            <input type="text" class="ec--input ec--search-input" placeholder="姓名、公司、手机、电话、QQ、邮箱、备注" value="">
+        </div>
+    </div>
+    <!--zb-->
+
+</body>
 
 </html>
